@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+--root{
+    --color01: #F55A5A;
+    --color02: #2B283A;
+    --color03: #918E9B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cinzel', serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+    gap: 10px;
+    height: 100px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.227);;
+}
+
+.nav--title:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.hero-content{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 10px 10px 20px;
+    gap: 30px;
+    
+
+}
+
+.image--container{
+    width: 300px;
+    
+}
+
+.hero--image{
+    height: 175px;
+    max-width: 100%;
+    border-radius: 15px;  
+}
+
+.hero--info{
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+
+.hero--location{
+    text-transform: uppercase;
+    padding: 0px 10px 10px 10px;
+}
+
+.hero--date{
+    font-weight: bold;
+}
+
+.hero--link > a{
+    color: #918E9B;
+}
+
+.hero--title{
+    padding: 5px 0px 15px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hero--text{
+    padding: 10px 0px 0px 0px;
+    font-size: 15px;
+}
+
+@media (max-width: 800px){
+    .hero-content{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
