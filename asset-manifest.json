@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PauloHenrique-Hope/Travel-Journal/static/css/main.dda7e884.css",
+    "main.js": "/PauloHenrique-Hope/Travel-Journal/static/js/main.869784c0.js",
+    "static/media/ocean.jpg": "/PauloHenrique-Hope/Travel-Journal/static/media/ocean.15ca32fcbd2c02a29ec9.jpg",
+    "static/media/bridge.jpg": "/PauloHenrique-Hope/Travel-Journal/static/media/bridge.885c84212dddd303b4e9.jpg",
+    "static/media/mountain.jpg": "/PauloHenrique-Hope/Travel-Journal/static/media/mountain.bdf298653a3e0e729211.jpg",
+    "index.html": "/PauloHenrique-Hope/Travel-Journal/index.html",
+    "main.dda7e884.css.map": "/PauloHenrique-Hope/Travel-Journal/static/css/main.dda7e884.css.map",
+    "main.869784c0.js.map": "/PauloHenrique-Hope/Travel-Journal/static/js/main.869784c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dda7e884.css",
+    "static/js/main.869784c0.js"
+  ]
+}
